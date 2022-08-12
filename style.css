@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    
+}
+
+.main_form{
+    width: 30%;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass_first{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}   
+
+
+
+.glass_second{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+.glass_third{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+
+.glass_circle_one{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 50%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 8px;
+    left: 936px;
+}
+
+.glass_circle_two{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 50%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 80px;
+    left: 500px;
+}
+
+.past{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+}
+
+.past>h3{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.past label{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 30px 0 5px 0;
+}
+
+.past input{
+    width: 80%;
+    background: rgb(60, 218, 238);
+    border: none;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.past input:focus{
+    border: none;
+    color: #fff;
+}
+
+
+.past button{
+    margin: 30px 0;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    border:none;
+    width: 200px;
+    color: #fff;
+    background: rgb(50, 50, 163);
+}
+
+.past button:hover{
+    cursor: pointer;
+}
+
+.links{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.links>a:hover{
+    text-decoration: underline;
+}
+
+.past>a{
+    color: #fff;
+    text-decoration: none;
+    margin-top:30px;
+    margin-left: 60px;
+}
+
+.past>a:hover{
+    text-decoration: underline;
+}
+
+.main_form:hover + .glass_first {
+    width: 120px;
+    height: 120px;
+}
